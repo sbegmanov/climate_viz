@@ -87,7 +87,7 @@ a <- t_data %>%
   )
 
 animate(a, width = 4.155, height = 4.5, unit = "in", res = 300,)
-anim_save("figures/climate.gif")
+anim_save("figures/climate_spiral.gif")
 animate(a, width=4.155, height=4.5, unit="in", res=300,
         renderer = av_renderer("figures/climate_spiral.mp4")
 )

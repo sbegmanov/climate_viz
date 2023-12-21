@@ -85,9 +85,9 @@ a <- t_data %>%
 # ggsave("figures/climate_spiral_nasa.png", width = 4.155, height = 4.5, units = "in", dpi = 300)
 
 animate(a, width = 4.155, height = 4.5, unit = "in", res = 300,)
-anim_save("figures/climate.gif")
+anim_save("figures/climate_spiral_nasa.gif")
 animate(a, width=4.155, height=4.5, unit="in", res=300,
-        renderer = av_renderer("figures/climate_spiral.mp4")
+        renderer = av_renderer("figures/climate_spiral_nasa.mp4")
 )
 
 
