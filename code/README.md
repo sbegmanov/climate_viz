@@ -12,3 +12,5 @@ https://data.giss.nasa.gov/gistemp/
 https://rpubs.com/boyerag/297592
 
 https://www.climate-lab-book.ac.uk/2016/mapping-global-temperature-change/
+
+https://svs.gsfc.nasa.gov/4978
