@@ -8,8 +8,14 @@ unventory_url <- "C:\\Users\\salam\\Desktop\\climate_viz\\ghcnd-inventory.txt"
 inventory <- read_table(unventory_url, 
                         col_names = c("station", "lat", "lon", "variable", "start", "end"))
 
-my_lat <- 42.33831964441621 * 2 * pi / 360
-my_lon <- 83.88938389977316 * 2 * pi / 360
+# my_lat <- 42.33831964441621 * 2 * pi / 360
+# my_lon <- 83.88938389977316 * 2 * pi / 360
+
+my_lat <- 42.433650868471304 * 2 * pi / 360
+my_lon <- 59.574049086442116 * 2 * pi / 360
+
+
+
 
 my_station <- inventory %>% 
   mutate(lat_r = lat * 2 * pi / 360,
