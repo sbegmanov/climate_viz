@@ -55,7 +55,7 @@ prcp_snow_daily %>%
 
 cor.test(prcp_snow_daily$prcp, prcp_snow_daily$snwd)
 
-gsave("figures/model_snow_ratio.png", width = 6, height = 4)
+ggsave("figures/model_snow_ratio.png", width = 6, height = 4)
 
 
 
