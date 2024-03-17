@@ -48,6 +48,4 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
-gistemp*
-
 renv/
